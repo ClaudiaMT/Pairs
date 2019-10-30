@@ -1,0 +1,27 @@
+﻿<Window x:Name="SignIn" x:Class="Pairs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Pairs game - Sign In" Height="360" Width="430" MinWidth="430" MinHeight="360" Icon="Pairs.ico">
+    <Grid>
+        <Button x:Name="btnAbout" Content="About" Margin="0,10,10,0" Height="27" VerticalAlignment="Top" HorizontalAlignment="Right" Width="60" Click="Button_Click" FontSize="14"/>
+        <TextBlock Margin="118,10,80,0" Text="Welcome to 'Pairs' game!" FontWeight="Bold" FontSize="16" Height="21" VerticalAlignment="Top" HorizontalAlignment="Center" Width="214" TextAlignment="Center"/>
+        <Button x:Name="btnNewUser" Content="New User" HorizontalAlignment="Left" Margin="10,0,0,10" Width="84" IsCancel="True" Height="28" VerticalAlignment="Bottom" FontSize="14" Click="btnNewUser_Click"/>
+        <Button x:Name="btnDeleteUser" Content="Delete User" Margin="116,0,0,10" Height="28" VerticalAlignment="Bottom" IsEnabled="False" FontSize="14" HorizontalAlignment="Left" Width="84" Click="btnDeleteUser_Click"/>
+        <Button x:Name="btnPlay" Content="Play" Margin="218,0,0,10" Height="28" VerticalAlignment="Bottom" IsEnabled="False" FontSize="14" HorizontalAlignment="Left" Width="84" Click="btnPlay_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" Margin="320,0,0,10" Height="28" VerticalAlignment="Bottom" Click="btnCancel_Click" FontSize="14" HorizontalAlignment="Left" Width="84"/>
+        <Image x:Name="poza" Margin="255,37,42,178" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
+        <ListView x:Name="lista_useri" Margin="10,36,0,43" HorizontalAlignment="Left" Width="192" VerticalContentAlignment="Top" SelectionMode="Single" SelectionChanged="lista_useri_SelectionChanged" FontSize="14" ScrollViewer.CanContentScroll="False" ScrollViewer.HorizontalScrollBarVisibility="Auto" Foreground="#FF000208" >
+            <ListView.View>
+                <GridView AllowsColumnReorder="False">
+                    <GridViewColumn Width="120" Header="user" DisplayMemberBinding="{Binding UserName}"/>
+                    <GridViewColumn Width="0" Header="icon" DisplayMemberBinding="{Binding UserImg}"/>
+                    <GridViewColumn Width="62" Header="scor" DisplayMemberBinding="{Binding UserScor}"/>
+                    <GridViewColumn Width="0" Header="save" DisplayMemberBinding="{Binding UserSave}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <RichTextBox x:Name="txtBox_detalii" Margin="216,0,10,43" Height="122" VerticalAlignment="Bottom" BorderThickness="0" FontSize="14">
+            <FlowDocument/>
+        </RichTextBox>        
+    </Grid>
+</Window>

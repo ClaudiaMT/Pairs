@@ -1,0 +1,46 @@
+d:\Clau\C# joc carti\tema\Pairs\Pairs\bin\Debug\Pairs.exe.config
+d:\Clau\C# joc carti\tema\Pairs\Pairs\bin\Debug\Pairs.exe
+d:\Clau\C# joc carti\tema\Pairs\Pairs\bin\Debug\Pairs.pdb
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\Pairs.csprojResolveAssemblyReference.cache
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\About.baml
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\AddNewUser.baml
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\Custom_format.baml
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\MainWindow.baml
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\NewGame.baml
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\Pairs_game.baml
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\About.g.cs
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\AddNewUser.g.cs
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\Custom_format.g.cs
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\MainWindow.g.cs
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\NewGame.g.cs
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\Pairs_game.g.cs
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\App.g.cs
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\Pairs_MarkupCompile.cache
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\Pairs.g.resources
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\Pairs.Properties.Resources.resources
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\Pairs.csproj.GenerateResource.Cache
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\Pairs.exe
+d:\Clau\C# joc carti\tema\Pairs\Pairs\obj\Debug\Pairs.pdb
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\bin\Debug\Pairs.exe.config
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\bin\Debug\Pairs.exe
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\bin\Debug\Pairs.pdb
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\Pairs.csprojResolveAssemblyReference.cache
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\About.baml
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\AddNewUser.baml
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\Custom_format.baml
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\MainWindow.baml
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\NewGame.baml
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\Pairs_game.baml
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\About.g.cs
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\AddNewUser.g.cs
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\Custom_format.g.cs
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\MainWindow.g.cs
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\NewGame.g.cs
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\Pairs_game.g.cs
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\App.g.cs
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\Pairs_MarkupCompile.cache
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\Pairs.g.resources
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\Pairs.Properties.Resources.resources
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\Pairs.csproj.GenerateResource.Cache
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\Pairs.exe
+D:\Clau\Unitbv\2\Medii vizuale\Pairs\Pairs\obj\Debug\Pairs.pdb

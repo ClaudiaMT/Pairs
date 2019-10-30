@@ -1,0 +1,93 @@
+﻿<Window x:Name="Pairs_game1" x:Class="Pairs.Pairs_game"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Pairs game - Play" Height="480" Width="640" MinWidth="640" MinHeight="480" FontSize="14" Icon="Pairs.ico">
+    <Grid>
+        <Menu x:Name="Pairs_Menu" Height="26" VerticalAlignment="Top" FontSize="14" BorderBrush="Black" BorderThickness="0,0,0,1">
+            <MenuItem Header="File">
+                <MenuItem Header="New Game" Click="MenuItem_Click_NewGame"/>
+                <MenuItem Header="Open Game" Click="MenuItem_Click_OpenGame"/>
+                <MenuItem Header="Save Game" Click="MenuItem_Click_SaveGame"/>
+                <MenuItem Header="Exit" Click="MenuItem_Click_Exit"/>
+            </MenuItem>
+            <MenuItem x:Name="Options" Header="Options" >
+                <MenuItem x:Name="Beginner" Header="Beginner" IsCheckable="True" IsChecked="True" Click="MenuItem_Click_Beginner"/>
+                <MenuItem x:Name="Intermediate" Header="Intermediate" IsCheckable="True" Click="MenuItem_Click_Intermediate"/>
+                <MenuItem x:Name="Custom" Header="Custom" IsCheckable="True" Click="MenuItem_Click_Custom"/>
+            </MenuItem>
+            <MenuItem Header="Help" >
+                <MenuItem Header="About" Click="MenuItem_Click_About"/>
+                <MenuItem Header="Info" Click="MenuItem_Click_Info"/>
+            </MenuItem>
+        </Menu>
+        <StatusBar x:Name="StatusBar" Height="26" VerticalAlignment="Bottom" BorderThickness="0,1" Margin="0" BorderBrush="Black">
+            <StatusBar.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" MinWidth="80" />
+                            <ColumnDefinition Width="Auto" MinWidth="70" />
+                            <ColumnDefinition Width="Auto" MinWidth="25" />
+                            <ColumnDefinition Width="Auto" MinWidth="5" />
+                            <ColumnDefinition Width="Auto" MinWidth="50" />
+                            <ColumnDefinition Width="Auto" MinWidth="61" />
+                            <ColumnDefinition Width="Auto" MinWidth="10" />
+                            <ColumnDefinition Width="Auto" MinWidth="10" />
+                            <ColumnDefinition Width="Auto" MinWidth="10" />
+                            <ColumnDefinition Width="Auto" MinWidth="5" />
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" MinWidth="36" />
+                            <ColumnDefinition Width="Auto" MinWidth="10" />
+                            <ColumnDefinition Width="Auto" MinWidth="5" />
+                            <ColumnDefinition Width="Auto" MinWidth="82" />
+                            <ColumnDefinition Width="Auto" MinWidth="60" />
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </StatusBar.ItemsPanel>
+            <StatusBarItem Grid.Column="0">
+                <TextBlock Name="lblUserNametext" Text="user name: " FontSize="14" />
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="1">
+                <TextBlock Name="lblUserName" Text="*" FontSize="14" />
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="2">
+                <Image Name="lblUserNameImg" />
+            </StatusBarItem>
+            <Separator Grid.Column="3" />
+            <StatusBarItem Grid.Column="4">
+                <TextBlock Name="lblOptionsText1" Text="Format" FontSize="14" />
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="5">
+                <TextBlock Name="lblOptions" Text="Beginner" FontSize="14" />
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="6">
+                <TextBlock Name="lblOptionsM" Text="4" FontSize="14" />
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="7">
+                <TextBlock Name="lblOptionsX" Text="x" FontSize="14" />
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="8">
+                <TextBlock Name="lblOptionsN" Text="4" FontSize="14" />
+            </StatusBarItem>
+            <Separator Grid.Column="9" />
+            <StatusBarItem Grid.Column="10"/>
+            <StatusBarItem Grid.Column="11">
+                <TextBlock Name="lblOptionsScorText" Text="Scor:" FontSize="14" />
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="12">
+                <TextBlock Name="lblOptionsScor" Text="0" FontSize="14" />
+            </StatusBarItem>
+            <Separator Grid.Column="13" />
+            <StatusBarItem Grid.Column="14">
+                <TextBlock Name="lblCowntDownTimerText" Text="Timp ramas:" FontSize="14" />
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="15">
+                <TextBlock Name="lblCowntDownTimer" Text="00:00:00" HorizontalAlignment="Right" FontSize="14" />
+            </StatusBarItem>
+        </StatusBar>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" CanContentScroll="True" Margin="0,26" VerticalScrollBarVisibility="Auto">
+            <Grid x:Name="gridTabelaJoc" Background="#FF5D5D5D" Grid.Row="1" Grid.Column="1" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" />
+        </ScrollViewer>
+    </Grid>
+</Window>

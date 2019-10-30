@@ -1,0 +1,14 @@
+﻿<Window x:Class="Pairs.Custom_format"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Custom format" Height="137" Width="225" Icon="Pairs.ico" MinWidth="225" MinHeight="137" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="btnCustom_OK" Content="OK" HorizontalAlignment="Left" Margin="10,68,0,0" Width="75" Height="22" VerticalAlignment="Top" Click="btnCustom_OK_Click"/>
+        <Button x:Name="btnCustom_Cancel" Content="Cancel" Margin="0,68,15,0" HorizontalAlignment="Right" Width="75" Height="22" VerticalAlignment="Top" Click="btnCustom_Cancel_Click"/>
+        <TextBlock Margin="41,10,23,0" TextWrapping="Wrap" Text="Select custom format" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <TextBlock Height="19" Margin="95,36,97,0" TextWrapping="Wrap" Text=" x " VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <TextBox x:Name="txtM" HorizontalAlignment="Left" Height="21" Margin="10,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77" HorizontalContentAlignment="Right" FontSize="14" FontWeight="Bold"/>
+        <TextBox x:Name="txtN" HorizontalAlignment="Right" Height="21" Margin="0,34,15,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75" FontSize="14" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
