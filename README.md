@@ -1,2 +1,0 @@
-# Pairs
-joc
